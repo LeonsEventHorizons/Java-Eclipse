@@ -11,13 +11,13 @@ public class Main {
 		int[] array1 = { 2, 54, 45, 23, 34 };
 		double getAverageDiff = averageDiff(array1);
 		System.out.println(getAverageDiff);
-		
-		//Question 3 Intersection
+
+		// Question 3 Intersection
 		int[] array2 = { 23, 2, 45, 43, 87, 6, 4, 8 };
 		int[] array3 = { 8, 54, 23, 87, 99, 5, 0, 56 };
 		int[] intersects = interesection(array2, array3);
 		for (int i = 0; i < intersects.length; i++) {
-			System.out.print(intersects[i] +", ");
+			System.out.print(intersects[i] + ", ");
 		}
 	}
 
@@ -93,5 +93,4 @@ public class Main {
 		}
 		return results;
 	}
-
 }
