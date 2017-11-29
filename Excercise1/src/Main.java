@@ -1,6 +1,6 @@
 /*
- * If two siding values in the array add up to the target value, change the two 
- * array values to their corresponding indices values.
+ * If two adjacent values in the array add up to the target value, add the
+ * indices for each of the values to a new array. 
  */
 
 public class Main {
